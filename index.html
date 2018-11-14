@@ -5,6 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .page-results #select-results nav #compile-status {
+        position: absolute;
+        opacity: 0;
+        -webkit-transition: opacity .1s ease-in-out;
+        -o-transition: opacity .1s ease-in-out;
+        transition: opacity .1s ease-in-out;
+        top: 52px;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+        color: #fff;
+        font-size: 1.125rem;
+        line-height: 1;
+        -webkit-transition: opacity .2s ease-in-out;
+        -o-transition: opacity .2s ease-in-out;
+        transition: opacity .2s ease-in-out;
+        cursor: pointer;
+        z-index: 999;
+        border: none;
+        border-radius: 50%;
+        width: 187px;
+        height: 187px;
+        background: #ed1556;}
+        </style>
 </head>
 <body>
     <form id="result-form" action="/results-list/" method="GET">
