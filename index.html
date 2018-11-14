@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form id="result-form" action="/results-list/" method="GET">
+
+        <div id="select-results">
+            <nav>
+
+                <button id="compile-status" class="btn btn-secondary">Great,
+                let's go!</button>
+
+                <svg class="selection-circle" width="391" height="391" viewBox="0 0 391 391">
+                <g id="circle-group" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="results-circle" transform="translate(0.000000, 0.000000)">
+                        <g id="outer" stroke="#F0F2F6" stroke-width="4">
+                            <circle id="outer-line" cx="195.5" cy="195.5" r="193.5"></circle>
+                        </g>
+                        <g id="circles" transform="translate(379, 195)" stroke="#FFFFFF" stroke-width="10">
+                            <circle class="small_circles" id="blue" fill="#2A75BB" cx="10" cy="10" r="25"></circle>
+                            <circle class="small_circles" id="pink" fill="#ED1556" cx="10" cy="10" r="25"></circle>
+                            <circle class="small_circles" id="purple" fill="#634DA0" cx="10" cy="10" r="25"></circle>
+                            <circle class="small_circles" id="green" fill="#00B5AB" cx="10" cy="10" r="25"></circle>
+                        </g>
+                        <g id="inner" transform="translate(41.000000, 41.000000)" stroke-width="10">
+                            <circle id="c-gray" stroke="#F8F9FB" cx="154.5" cy="154.5" r="154"></circle>
+                            <path d="M154.5,308.5 C239.551851,308.5 308.5,239.551851 308.5,154.5 C308.5,69.4481485 239.551851,0.5 154.5,0.5 C69.4481485,0.5 0.5,69.4481485 0.5,154.5 C0.5,239.551851 69.4481485,308.5 154.5,308.5 Z" 
+                            id="c-red" 
+                            stroke="#ED1556" 
+                            stroke-dasharray="0, 9999" 
+                            fill-rule="nonzero" 
+                            stroke-width="10"
+                            transform="translate(154.500000, 154.500000) rotate(-90) translate(-154.500000, -154.500000) "
+                            ></path>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+                <div class="r-select-link-outer-wrapper">
+
+                    <div class="r-select-link-wrapper">
+                        <input 
+                            class="r-select-link" type="checkbox" id="leads" name="leads" value="leads"
+                                                            >
+                        <label for="leads">I want more leads</label>
+                    </div>
+                    <div class="r-select-link-wrapper">
+                        <input 
+                            class="r-select-link" type="checkbox" id="traffic" name="traffic" value="traffic" 
+                                                            >
+                        <label for="traffic">I want more website traffic</label>
+                    </div>
+                    <div class="r-select-link-wrapper">
+                        <input 
+                            class="r-select-link" type="checkbox" id="inbound" name="inbound" value="inbound" 
+                                                            >
+                        <label for="inbound">I want help with HubSpot and/or inbound marketing</label>
+                    </div>
+                    <div class="r-select-link-wrapper">
+                        <input 
+                            class="r-select-link" type="checkbox" id="website" name="website" value="website" 
+                                                            >
+                        <label for="website">I need a new website</label>
+                    </div>
+                    <div class="r-select-link-wrapper">
+                        <input 
+                            class="r-select-link" type="checkbox" id="advertising" name="advertising" value="advertising" 
+                                                            >
+                        <label for="advertising">I need help with digital advertising</label>
+                    </div>
+                    <div class="r-select-link-wrapper">
+                        <input 
+                            class="r-select-link" type="checkbox" id="brand" name="brand" value="brand"
+                                                            >
+                        <label for="brand">I need to refresh or reestablish my brand online</label>
+                    </div>
+                    <div class="r-select-link-wrapper">
+                        <input 
+                            class="r-select-link" type="checkbox" id="application" name="application" value="application" 
+                                                            >
+                        <label for="application">I need a custom application or user portal</label>
+                    </div>
+                    <div class="r-select-link-wrapper">
+                        <input 
+                            class="r-select-link" type="checkbox" id="sales" name="sales" value="sales" 
+                                                            >
+                        <label for="sales">I want to close more sales</label>
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+
+        <button class="btn btn-pink results-submit mx-auto" type="submit">View Your Results</button>
+
+    </form>
+
+</div>
+</div>
+
+
+</body>
+</html>
