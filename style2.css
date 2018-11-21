@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+    color:white;
+}
+
+.container{
+    width:100%;
+    height:auto;
+    text-align: center;
+}
+
+.main-content{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+h1:after{
+    content:"";
+    display:block;
+    margin:0 auto;
+    width:8%;
+    border-bottom: white solid 5px;
+}
+
+hr{
+    margin-top: 0px;
+    width:30%;
+}
+
+.outer-circular{
+    /* position: relative; */
+    width:350px;
+    height:350px;
+    border:white solid 1px;
+    float:center;
+    margin-right:auto;
+    margin-left:auto;   
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+
+.inner-circular{
+    width:325px;
+    height:325px;
+    border:white solid 1px;
+    border-radius: 50%;
+    margin-top:10px;
+    margin-left:auto;
+    margin-right:auto;
+}
